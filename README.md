@@ -1,4 +1,4 @@
-## electron-project-block
+## electron-vue-project
 
 > 自己学习electron-vue 的测试例子
 >
