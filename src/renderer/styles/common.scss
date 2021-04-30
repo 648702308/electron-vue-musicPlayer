@@ -1,0 +1,37 @@
+//手型鼠标
+.pointer {
+  cursor: pointer;
+}
+
+//禁止复制
+.no-copy {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+//设置某个区域可移动窗口拖拽
+.drag {
+  -webkit-app-region: drag;
+}
+
+//解除设置某个区域可移动窗口拖拽
+.no-drag {
+  -webkit-app-region: no-drag;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+
+

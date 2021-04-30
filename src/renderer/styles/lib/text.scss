@@ -1,0 +1,152 @@
+//文本
+.text-xs {
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.text-sm {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.text-md {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.text-lg {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.text-xl {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.text-xxl {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.text-sl {
+  font-size: 40px;
+  line-height: 1.5;
+}
+
+.text-xsl {
+  font-size: 60px;
+  line-height: 1.5;
+}
+
+.text-Abc {
+  text-transform: Capitalize;
+}
+
+.text-ABC {
+  text-transform: Uppercase;
+}
+
+.text-abc {
+  text-transform: Lowercase;
+}
+
+.text-line {
+  text-decoration: line-through;
+}
+
+.text-price::before {
+  content: "¥";
+  font-size: 80%;
+  margin-right: 4px;
+}
+
+.text-cut {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-content {
+  line-height: 1.6;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-red, .line-red, .lines-red {
+  color: $red;
+}
+
+.text-orange, .line-orange, .lines-orange {
+  color: $orange;
+}
+
+.text-yellow, .line-yellow, .lines-yellow {
+  color: $yellow;
+}
+
+.text-olive, .line-olive, .lines-olive {
+  color: $olive;
+}
+
+.text-green, .line-green, .lines-green {
+  color: $green;
+}
+
+.text-cyan, .line-cyan, .lines-cyan {
+  color: $cyan;
+}
+
+.text-blue, .line-blue, .lines-blue {
+  color: $blue;
+}
+
+.text-purple, .line-purple, .lines-purple {
+  color: $purple;
+}
+
+.text-mauve, .line-mauve, .lines-mauve {
+  color: $mauve;
+}
+
+.text-pink, .line-pink, .lines-pink {
+  color: $pink;
+}
+
+.text-brown, .line-brown, .lines-brown {
+  color: $brown;
+}
+
+.text-grey, .line-grey, .lines-grey {
+  color: $grey;
+}
+
+.text-gray, .line-gray, .lines-gray {
+  color: $gray;
+}
+
+.text-black, .line-black, .lines-black {
+  color: $black;
+}
+
+.text-white, .line-white, .lines-white {
+  color: $white;
+}
+
+.lineht-1{
+  line-height: 1;
+}
