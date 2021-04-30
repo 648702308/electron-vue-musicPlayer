@@ -38,7 +38,7 @@
     created() {
     },
     mounted() {
-      
+
     },
     destroyed() {
     },

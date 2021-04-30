@@ -1,9 +1,9 @@
 {
-  "name": "electron-project-block",
-  "productName": "佰音乐",
-  "version": "0.0.1",
-  "author": "Sunset <2528308183@qq.com>",
-  "description": "佰音乐",
+  "name": "electron-vue-project",
+  "productName": "音乐播放器",
+  "version": "0.0.2",
+  "author": "",
+  "description": "音乐播放器",
   "license": null,
   "main": "./dist/electron/main.js",
   "scripts": {
@@ -19,7 +19,7 @@
   },
   "build": {
     "productName": "music-app",
-    "appId": "com.packer.vue",
+    "appId": "com.music.vue",
     "directories": {
       "output": "build"
     },
@@ -45,7 +45,7 @@
       "icon": "build/icons/icon.icns"
     },
     "win": {
-      "icon": "build/icons/icon.ico"
+      "icon": "build/icons/logo.ico"
     },
     "linux": {
       "icon": "build/icons"
@@ -55,9 +55,9 @@
       "perMachine": true,
       "allowElevation": true,
       "allowToChangeInstallationDirectory": true,
-      "installerIcon": "./build/icons/icon.ico",
-      "uninstallerIcon": "./build/icons/icon.ico",
-      "installerHeaderIcon": "./build/icons/icon.ico",
+      "installerIcon": "./build/icons/logo.ico",
+      "uninstallerIcon": "./build/icons/logo.ico",
+      "installerHeaderIcon": "./build/icons/logo.ico",
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
       "shortcutName": "音乐播放器"

@@ -37,7 +37,7 @@ function createWindow () {
     minHeight: windowHeight, // 窗口最小宽度，默认为 0
     minWidth: windowWidth, // 窗口最小高度，默认为 0.
     useContentSize: true, // width 和 height 使用web网页size, 这意味着实际窗口的size应该包括窗口框架的size，稍微会大一点，默认为 false.
-    resizable: isResizable, //是否可放大  禁止改变主窗口尺寸,设置过后，mainWindow.isMaximized()总是返回false
+    resizable: isResizable, // 是否可放大  禁止改变主窗口尺寸,设置过后，mainWindow.isMaximized()总是返回false
     frame: showFrame, // PS:隐藏窗口菜单
     title: title,
     webPreferences: {
