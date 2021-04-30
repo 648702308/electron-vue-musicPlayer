@@ -2,7 +2,7 @@
 
 > 自己学习electron-vue 的测试例子
 >
-> 一个基于electron-vue开发的音乐播放器部分功能
+> 一个基于electron-vue开发的音乐播放器部分功能、内嵌网易云nodejs版api服务调用网易云api。
 
 #### Build Setup
 
